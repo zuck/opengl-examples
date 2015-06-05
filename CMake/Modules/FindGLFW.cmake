@@ -41,7 +41,7 @@ FIND_LIBRARY(GLFW_LIBRARY
 
 SET(GLFW_FOUND FALSE)
 
-IF(NOT GLFW_LIBRARY OR HORDE3D_FORCE_DOWNLOAD_GLFW)
+IF(NOT GLFW_LIBRARY OR FORCE_DOWNLOAD_GLFW)
     # If not found, try to build with local sources.
     # It uses CMake's "ExternalProject_Add" target.
     MESSAGE(STATUS "Preparing external GLFW project")
