@@ -25,3 +25,15 @@ And then build the generated files with your favourite compiler, e.g.:
 Binaries could be found at `$BUILD_DIR/Binaries/$PLATFORM_NAME/$CONFIGURATION_NAME`, e.g.:
 
     Build/Binaries/Linux/Release
+    
+## Contributing
+
+If you find this project useful, you can also freely donate to fund the project development:
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://paypal.me/EBertoldi)
+
+## License
+
+Copyright (c) Emanuele Bertoldi
+
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
